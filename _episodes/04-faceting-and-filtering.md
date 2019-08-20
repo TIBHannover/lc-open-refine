@@ -48,10 +48,12 @@ You can also `invert` the filter to show all records which do not match your sel
 >2. How many articles in the file don't have a licence assigned?
 >
 >>## Solution
->>1. Create a facet for the 'Licence' column
->>2. Sort values by `count`
->>3. What is the most common Licence in the file? Answer: `CC BY`
->>4. How many articles in the file don't have a licence assigned? Answer: **6**
+>>Create a facet for the 'Licence' column and sort the values by `count`.
+>>
+>>Answers:
+>>
+>>1. `CC BY`
+>>2. **6**
 >{: .solution}
 {: .challenge}
 
