@@ -34,7 +34,7 @@ You can include multiple values from the facet in a filter at one time by using 
 You can also `invert` the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
 >## Let's create a text facet
->1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
+>1. Click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel
 >2. To select a single value, just click the relevant line in the facet
 >3. To select multiple values click the `Include` option on the appropriate line in the facet (which only appears when you mouse over the line)
 >3. You can 'invert' your selections to `exclude`
@@ -93,7 +93,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 >
 >>## Solution
 >>
->>1. On the `DOI` column drop down and select `Customized facets > Facet by blank`
+>>1. On the `DOI` column drop down and select `Customized facets -> Facet by blank`
 >>2. `True` means that it is blank, so you can:
 >>    * Select `include` on True in the facet to filter the list of publications to only those that don't have a DOI
 >{: .solution}
