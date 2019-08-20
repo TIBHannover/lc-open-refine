@@ -14,7 +14,7 @@ keypoints:
 
 ## Writing transformations
 
-To start writing transformations, select the column on which you wish to perform a transformation and choose ```Edit cells->Transform…```. In the screen that displays you have a place to write a transformation (the 'Expression' box) and then the ability to Preview the effect the transformation would have on 10 rows of your data.
+To start writing transformations, select the column on which you wish to perform a transformation and choose ```Edit cells -> Transform…```. In the screen that displays you have a place to write a transformation (the 'Expression' box) and then the ability to Preview the effect the transformation would have on 10 rows of your data.
 
 The transformation you type into the 'Expression' box has to be a valid GREL expression. The simplest expression is simply the word 'value' by itself - which simply means the value that is currently in the column - that is: make no change.
 
@@ -38,7 +38,7 @@ Next to the 'Preview' option are options to view:
 >3. To select multiple values in the facet use the ```include``` link that appears to the right of the facet
 >4. See that the Titles for these are all in uppercase
 >5.  Click the dropdown menu on the Title column
->6. Choose ```Edit cells->Transform...```
+>6. Choose ```Edit cells -> Transform...```
 >7. In the Expression box type ```value.toTitlecase()```
 >8. In the Preview pane under value.toTitlecase() you can see what the effect of running this will be
 >9. Click ```OK```

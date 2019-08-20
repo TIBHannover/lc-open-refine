@@ -31,9 +31,9 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 
 >## Reformat the Date
 >1. Make sure you remove all Facets and Filters
->2. On the Date column use the dropdown menu to select ```Edit cells->Common transforms->To date```
+>2. On the Date column use the dropdown menu to select ```Edit cells -> Common transforms -> To date```
 >3. Note how the values are now displayed in green and follow a standard convention for their display format (ISO 8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
->4. On the Date column dropdown select ```Edit column->Add column based on this column```. Using this function you can create a new column, while preserving the old column
+>4. On the Date column dropdown select ```Edit column -> Add column based on this column```. Using this function you can create a new column, while preserving the old column
 >5. In the 'New column name' type "Formatted Date"
 >6. In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
 {: .checklist}
@@ -53,8 +53,8 @@ Such tests can be combined with other GREL expressions to create more complex tr
 >
 >We can do a crude test for reversed author names by looking for those that contain a comma:
 >
->1. Make sure you have already split the author names into individual cells using ```Edit cells->Split multi-valued cells``` (you should have done this in exercise 5)
->2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```
+>1. Make sure you have already split the author names into individual cells using ```Edit cells -> Split multi-valued cells``` (you should have done this in exercise 5)
+>2. On the Authors column, use the dropdown menu and select ```Facet -> Custom text facet...```
 >3. The Custom text facet function allows you to write GREL functions to create a facet
 >4. In the Expression box type ```value.contains(",").toString()```
 >* Click ```OK```

@@ -116,7 +116,7 @@ Extracting something from a string like ISBN, geographical coordinates
 
 Publisher > Text Facet
 Why does MDPI AG appear twice, looks the same?
-Edit cells->Common transforms->Trim leading and trailing whitespace
+Edit cells -> Common transforms -> Trim leading and trailing whitespace
 That is a transformation to start!
 
 ## Write Transformations

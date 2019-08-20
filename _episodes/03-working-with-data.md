@@ -38,7 +38,7 @@ To see how this works in practice we can split author names into separate cells.
 To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells, we can use a `Split multi-valued cells` function:
 
 * Click the dropdown menu at the top of the Author column
-* Choose `Edit cells->Split multi-valued cells`
+* Choose `Edit cells -> Split multi-valued cells`
 * In the prompt type the ( \| ) symbol and click `OK`
     * Note that the rows are still numbered sequentially
 * Click the `Records` option to change to Records mode
@@ -60,7 +60,7 @@ A common workflow with multi-valued cells is
 Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together that have been split previously.
 
 * Click the dropdown menu at the top of the Author column
-* Choose `Edit cells->Join multi-valued cells`
+* Choose `Edit cells -> Join multi-valued cells`
 * In the prompt type the ( \| ) symbol
     * Here we are specifying the *delimiter* character for OpenRefine to use to join the values together.
 * Click `OK` to join the Authors cells back together
@@ -122,7 +122,7 @@ Splitting on a comma will not work with Authors because the names may include co
 > > 1. The subject words/headings are divided up with the pipe ( \| ) character
 > > 2. To split the subject words into individual cells you need to:
 > > * Click the dropdown menu at the top of the Subjects column
-> > * Choose 'Edit cells->Split multi-valued cells'
+> > * Choose 'Edit cells -> Split multi-valued cells'
 > > * In the prompt type the ( \| ) symbol and click 'OK'
 > {: .solution}
 {: .challenge}
@@ -135,7 +135,7 @@ Splitting on a comma will not work with Authors because the names may include co
 > > 1. The subject words/headings were previously delimited with the pipe ( \| ) character
 > > 2. To join the split subject cells back to a single cell you need to:
 > > * Click the dropdown menu at the top of the Subjects column
-> > * Choose 'Join cells->Join multi-valued cells'
+> > * Choose 'Join cells -> Join multi-valued cells'
 > > * In the prompt type the ( \| ) symbol and click 'OK'
 > {: .solution}
 {: .challenge}

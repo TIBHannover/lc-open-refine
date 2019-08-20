@@ -25,7 +25,7 @@ As an example, you can look up names against the Virtual International Authority
 
 Typically this is a two step process - firstly a step to retrieve data from a remote service, and secondly to extract the relevant information from the data you have retrieved.
 
-To retrieve data from an external source, from the drop down menu at a column heading use the option 'Edit column->Add column by fetching URLs'.
+To retrieve data from an external source, from the drop down menu at a column heading use the option 'Edit column -> Add column by fetching URLs'.
 
 This will prompt you for a GREL expression to create a URL. Usually this would be a URL that uses existing values in your data to build a query. When the query runs OpenRefine will request each URL (for each line) and retrieve whatever data is returned (this may often be structured data, but could be simply HTML).
 
@@ -45,7 +45,7 @@ The next exercise demonstrates this two stage process in full.
 >    * Clicking the star icon for the relevant row in the first column
 >    * Facet by Star
 >    * Choose the single row
->* In the ISSN column use the dropdown menu to choose 'Edit column->Add column by fetching URLs'
+>* In the ISSN column use the dropdown menu to choose 'Edit column -> Add column by fetching URLs'
 >* Give the column a name e.g. "Journal details"
 >* In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)
 >
@@ -62,12 +62,12 @@ The next exercise demonstrates this two stage process in full.
 >
 >OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The 'parseJson' function is explained in more detail at [https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions).
 >
->* In the new column you've just added use the dropdown menu to access 'Edit column->Add column based on this column'
+>* In the new column you've just added use the dropdown menu to access 'Edit column -> Add column based on this column'
 >* Add a name for the new column e.g. "Journal Title"
 >* In the Expression box type the GREL ```value.parseJson().message.title```
 >* You should see in the Preview the Journal title displays
 >
->The reason for using 'Add column based on this column' is simply that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the title and did not need any other information from the JSON you could use 'Edit cells->Transform...' with the same GREL expression.
+>The reason for using 'Add column based on this column' is simply that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the title and did not need any other information from the JSON you could use 'Edit cells -> Transform...' with the same GREL expression.
 {: .challenge}
 
 ## Reconciliation services
@@ -92,7 +92,7 @@ For more information on using Reconciliation services see [https://github.com/Op
 >
 >Once you have chosen which service you are going to use:
 >
->* In the Publisher column use the dropdown menu to choose 'Reconcile->Start Reconciling'
+>* In the Publisher column use the dropdown menu to choose 'Reconcile -> Start Reconciling'
 >* If this is the first time you've used this particular reconciliation service, you'll need to add the details of the service now
 >    * Click 'Add Standard Service...' and in the dialogue that appears enter:
 >        * "http://refine.codefork.com/reconcile/viaf" for Jeff's public service
@@ -129,11 +129,11 @@ For more information on using Reconciliation services see [https://github.com/Op
 >We could do these one by one, but if we are confident with matches, there is an option to accept all:
 >
 >* Remove all filters/facets from the project so all rows display
->* In the Publisher column use the dropdown menu to choose 'Reconcile->Actions->Match each cell to its best candidate'
+>* In the Publisher column use the dropdown menu to choose 'Reconcile -> Actions -> Match each cell to its best candidate'
 >
 >There are two things that reconciliation can do for you. Firstly it gets a standard form of the name or label for the entity. Secondly it gets an ID for the entity - in this case a VIAF id. This is hidden in the default view, but can be extracted:
 >
->* In the Publisher column use the dropdown menu to choose 'Edit column->Add column based on this column...'
+>* In the Publisher column use the dropdown menu to choose 'Edit column -> Add column based on this column...'
 >* Give the column the name 'VIAF ID'
 >* In the GREL expression box type ```cell.recon.match.id```
 >* This will create a new column that contains the VIAF ID for the matched entity

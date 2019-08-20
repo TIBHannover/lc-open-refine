@@ -56,8 +56,8 @@ Taking the above example again, this would result in a string with the days of t
 >
 >We can do a crude test for reversed author names by looking for those that contain a comma:
 >
->1. Make sure you have already split the author names into individual cells using ```Edit cells->Split multi-valued cells``` (you should have done this in the Clustering lesson)
->2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```
+>1. Make sure you have already split the author names into individual cells using ```Edit cells -> Split multi-valued cells``` (you should have done this in the Clustering lesson)
+>2. On the Authors column, use the dropdown menu and select ```Facet -> Custom text facet...```
 >3. The ```Custom text``` facet function allows you to write GREL functions to create a facet
 >4. In the Expression box type ```value.contains(",").toString()```
 >5. Click ```OK```
@@ -66,7 +66,7 @@ Taking the above example again, this would result in a string with the days of t
 >
 >Now we have narrowed down to the lines with a comma in a name, we can use the ```match``` function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.
 >
->1. On the ```Authors``` column use the dropdown menu and select ```Edit cells->Transform ```
+>1. On the ```Authors``` column use the dropdown menu and select ```Edit cells -> Transform ```
 >2. In the Expression box type ```value.match(/(.*),(.*)/)```  The ```/```,  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ```.\*``` expression will match any character from 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.
 >3. See how this creates an array with two members in each row in the Preview column
 >
