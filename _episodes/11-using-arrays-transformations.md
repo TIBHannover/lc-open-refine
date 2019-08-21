@@ -56,7 +56,7 @@ Taking the above example again, this would result in a string with the days of t
 >
 >We can do a crude test for reversed author names by looking for those that contain a comma:
 >
->1. Make sure you have already split the author names into individual cells using ```Edit cells -> Split multi-valued cells``` (you should have done this in the Clustering lesson)
+>1. Make sure you have already split the author names into individual cells using ```Edit cells -> Split multi-valued cells``` (you should have done this in the Clustering episode)
 >2. On the Authors column, use the dropdown menu and select ```Facet -> Custom text facet...```
 >3. The ```Custom text``` facet function allows you to write GREL functions to create a facet
 >4. In the Expression box type ```value.contains(",").toString()```

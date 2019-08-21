@@ -23,7 +23,7 @@ Understanding data types and regular expressions will help you write more comple
 >* Number
 >* Date
 >* Boolean
->* Array (covered in the next lesson)
+>* Array (covered in the next episode)
 {: .callout}
 
 ### Dates and Numbers
@@ -59,5 +59,5 @@ Such tests can be combined with other GREL expressions to create more complex tr
 >4. In the Expression box type ```value.contains(",").toString()```
 >* Click ```OK```
 >* Since the 'contains' function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
->* In order to change the names to natural order, see the Arrays lesson.
+>* In order to change the names to natural order, see the Arrays episode.
 {: .checklist}
