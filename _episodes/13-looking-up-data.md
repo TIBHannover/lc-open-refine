@@ -64,7 +64,7 @@ The next exercise demonstrates this two stage process in full.
 >
 >* In the new column you've just added use the dropdown menu to access 'Edit column -> Add column based on this column'
 >* Add a name for the new column e.g. "Journal Title"
->* In the Expression box type the GREL ```value.parseJson().message.title```
+>* In the Expression box type the GREL ```value.parseJson()["message"]["title"]```
 >* You should see in the Preview the Journal title displays
 >
 >The reason for using 'Add column based on this column' is simply that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the title and did not need any other information from the JSON you could use 'Edit cells -> Transform...' with the same GREL expression.
@@ -135,7 +135,7 @@ For more information on using Reconciliation services see [https://github.com/Op
 >
 >* In the Publisher column use the dropdown menu to choose 'Edit column -> Add column based on this column...'
 >* Give the column the name 'VIAF ID'
->* In the GREL expression box type ```cell.recon.match.id```
+>* In the GREL expression box type ```cell["recon"]["match"]["id"]```
 >* This will create a new column that contains the VIAF ID for the matched entity
 {: .challenge}
 
