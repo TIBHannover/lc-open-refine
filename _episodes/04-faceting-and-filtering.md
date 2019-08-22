@@ -65,7 +65,7 @@ As with Facets, the Filter options appear in the left hand panel in OpenRefine. 
 You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/04-regular-expressions/) in the filter.
 
 ## Working with filtered data
-It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed.
+It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out on the filtered colum will apply only to the rows that match the filter - that is the data currently being displayed.
 
 ## Other types of Facet 
 As well as 'Text facets' Refine also supports a range of other types of facet. These include:
