@@ -22,7 +22,7 @@ You can then drag and drop column names to re-order the columns, or remove colum
 ## Sorting data
 You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
 
-Once you have sorted the data, the drop-down menu will expand to include a list of sub-options under `Sort`, to reverse the sort order, remove existing sorts, and/or make sorts permanent.
+Once you have sorted the data, the drop-down menu will expand to include a list of sub-options under `Sort`, to reverse remove, change or revert existing sorts.
 
 This latter option distinguishes OpenRefine from Excel: Here, `Sort` is temporary by default, i.e. if you remove the `Sort`, the data will go back to its original 'unsorted' state.
 
