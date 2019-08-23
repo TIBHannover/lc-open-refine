@@ -26,4 +26,4 @@ Once you have sorted the data, the drop-down menu will expand to include a list 
 
 This latter option distinguishes OpenRefine from Excel: Here, `Sort` is temporary by default, i.e. if you remove the `Sort`, the data will go back to its original 'unsorted' state.
 
-You can sort on multiple columns at the same time by adding another sorted column (in the same way).
+You can sort on multiple columns at the same time by `Sort`-ing one after another in the way described above.
