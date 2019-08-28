@@ -122,8 +122,8 @@ Splitting on a comma will not work with Authors because the names may include co
 > > 1. The subject words/headings are divided up with the pipe ( \| ) character
 > > 2. To split the subject words into individual cells you need to:
 > > * Click the dropdown menu at the top of the Subjects column
-> > * Choose 'Edit cells -> Split multi-valued cells'
-> > * In the prompt type the ( \| ) symbol and click 'OK'
+> > * Choose `Edit cells -> Split multi-valued cells`
+> > * In the prompt type the `|` symbol and click `OK`
 > {: .solution}
 {: .challenge}
 
@@ -135,7 +135,7 @@ Splitting on a comma will not work with Authors because the names may include co
 > > 1. The subject words/headings were previously delimited with the pipe ( \| ) character
 > > 2. To join the split subject cells back to a single cell you need to:
 > > * Click the dropdown menu at the top of the Subjects column
-> > * Choose 'Join cells -> Join multi-valued cells'
-> > * In the prompt type the ( \| ) symbol and click 'OK'
+> > * Choose `Join cells -> Join multi-valued cells`
+> > * In the prompt type the `|` symbol and click `OK`
 > {: .solution}
 {: .challenge}
