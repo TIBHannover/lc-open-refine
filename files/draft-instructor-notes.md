@@ -124,7 +124,7 @@ That is a transformation to start!
 Citation > Edit Column > Add Column based on this one
 GREL - Google Refine Expression Language
 
-What if you wanted to get the volume? 
+What if you wanted to get the volume?
 value.match(/.*?(\d+).*?/)[0]
 
 
@@ -160,7 +160,7 @@ Answer:
 Remember:
 Publisher > Text Facet and choose Society of...
 ISSNs > Edit Column > Add Column based Fetching URL
-"http://api.crossref.org/journals/"+value
+"https://api.crossref.org/journals/"+value
 Get JSON back...
 
 How do we get the journal title from the JSON?
@@ -170,7 +170,7 @@ Answer:
 ## Booleans
 You can check whether a condition is TRUE or FALSE
 Authors > Facets > Custom Facet
-Value.contains(",") 
+Value.contains(",")
 
 
 ## Reverse author names

@@ -49,11 +49,11 @@ The next exercise demonstrates this two stage process in full.
 >* Give the column a name e.g. "Journal details"
 >* In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)
 >
->In this case we are going to use the CrossRef API: [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc). Read more about the CrossRef service: [http://www.crossref.org](http://www.crossref.org). Note that the API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation.
+>In this case we are going to use the CrossRef API: [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc). Read more about the CrossRef service: [http://www.crossref.org](https://www.crossref.org). Note that the API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation.
 >
->The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
+>The syntax for requesting journal information from CrossRef is ```https://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
->* In the expression box type the GREL ```"http://api.crossref.org/journals/"+value```
+>* In the expression box type the GREL ```"https://api.crossref.org/journals/"+value```
 >* Click 'OK'
 >
 >You should see a message at the top on the OpenRefine screen indicating it is fetching some data, and how far it has got. Wait for this to complete. Fetching data for a single row should take only ten seconds or so, but fetching data for all rows will take longer. You can speed this up by modifying the "Throttle Delay" setting in the `Add column by fetching URLs` dialog which controls the delay between each URL request made by OpenRefine. This is defaulted to a rather large 5000 milliseconds (5 seconds).
