@@ -49,20 +49,11 @@ value.split(",").sort().join(",")
 Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
 >## Reverse author names
->You may already have done the boolean exercise and have a facet containing the names in natural order. In this case, select the 'true' facet and start with the step **"1. On the ```Authors``` column use..."**
 >
 >In this exercise we are going to use both the Boolean and Array data types.
 >If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
 >
->We can do a crude test for reversed author names by looking for those that contain a comma:
->
->1. Make sure you have already split the author names into individual cells using ```Edit cells -> Split multi-valued cells``` (you should have done this in the Clustering episode)
->2. On the Authors column, use the dropdown menu and select ```Facet -> Custom text facet...```
->3. The ```Custom text``` facet function allows you to write GREL functions to create a facet
->4. In the Expression box type ```value.contains(",").toString()```
->5. Click ```OK```
->6. Since the ```contains``` function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
->7. In this facet select 'true' to narrow down to the author names that contain a comma
+>You may already have done the boolean exercise and have a facet containing the names in natural order. If not, [go back to the previous episode and complete the last checklist there]({{ page.root }}/10-data-transformation/index.html#booleans).
 >
 >Now we have narrowed down to the lines with a comma in a name, we can use the ```match``` function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.
 >
