@@ -23,7 +23,7 @@ GREL functions are written by giving a value of some kind (a text string, a date
 * ```value.function(options)```
 * ```function(value, options)```
 
-Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used.
+Either is valid and OpenRefine's `Help` section uses the latter. However, to keep transformation pipelines with multiple functions nicely legible from left to right (input `value` followed by `.function(option).next_function().function_3(other_options)...`), we recommend the `.`-syntax and also use that in our lesson.
 
 Next to the 'Preview' option are options to view:
 
