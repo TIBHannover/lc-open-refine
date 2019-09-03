@@ -11,6 +11,7 @@ objectives:
 keypoints:
 - "You can alter data in OpenRefine based on specific instructions"
 - "You can expand the data editing functions that are built-in into OpenRefine by building your own"
+- "A long-term useful habit is to primarily rely on machine-readable, unambiguous data formats (such as ISO 8601 for date/timestamps, and to create human-readable, but possibly ambiguous display formats in a second step."
 ---
 
 ## Data types
@@ -32,7 +33,7 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 >## Reformat the Date
 >1. Make sure you remove all Facets and Filters
 >2. On the Date column use the dropdown menu to select ```Edit cells -> Common transforms -> To date```
->3. Note how the values are now displayed in green and follow a standard convention for their display format (ISO 8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
+>3. Note how the values are now displayed in green and follow a machine-readable, unambiguous format (ISO 8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
 >4. On the Date column dropdown select ```Edit column -> Add column based on this column```. Using this function you can create a new column, while preserving the old column
 >5. In the 'New column name' type "Formatted Date"
 >6. In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
