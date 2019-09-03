@@ -9,7 +9,7 @@ objectives:
 - "Explain what clustering is in OpenRefine"
 - "Use clustering to identify and fix replace varying forms of the same data with a single consistent value"
 keypoints:
-- "Clustering helps you find different spellings or other minor variations within a dataset"
+- "Clustering helps you find different spellings or other non-obvious variations within a dataset"
 - "Depending on your data, different clustering algorithm will prove differently helpful"
 - "After clustering you can replace varying forms of the same data with a single consistent value"
 ---
@@ -17,7 +17,7 @@ keypoints:
 ## Clustering
 The Cluster function groups together similar, but inconsistent values in a given column and lets you merge these inconsistent values into a single value you choose.
 
-This is very effective where you have data with minor variations in data values, e.g. names of people, organisations, places, classification terms.
+This is very effective where you have data with non-obvious variations, which can't be easily discovered by facetting, e.g. names of people, organisations, places, classification terms.
 
 To use the 'Cluster' function, click on the `Edit Cells` menu option in the relevant column and choose `Cluster and edit...`
 

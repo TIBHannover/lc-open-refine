@@ -16,7 +16,7 @@ keypoints:
 - "Facets provide a bird's-eye view onto a dataset and its column contents"
 - "Filters nose-dive you into the frog's perspective to investigate details"
 - "You can use facets and filters work with a subset of data in OpenRefine"
-- "You can easily correct common data issues from a facet"
+- "You can easily correct obvious data inconsistencies from a facet"
 ---
 
 ## Facets
@@ -93,7 +93,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 ## Amending data through facets
 If you create a text facet you can edit the values in the facet to change the value for several records at the same time. To do this, simply mouse-over the value you want to edit and click the 'edit' option that appears.
 
-This approach is useful in relatively small facets where you might have small variations through punctuation or typing errors etc. For example, a column that should contain only terms from a small restricted list such as days of the week or months of the year.
+This approach is useful in relatively small facets where you might have obvious variations, such as misplaced punctuation, typing errors, differing abbreviations, etc. For example, a column that should contain only terms from a small restricted list such as days of the week or months of the year.
 
 The list of values in the facet will update as you make edits.
 
