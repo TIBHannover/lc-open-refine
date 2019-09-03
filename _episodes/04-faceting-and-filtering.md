@@ -13,13 +13,14 @@ objectives:
 - "Use facets and filters to work with a subset of data"
 - "Correct simple data problems through a facet"
 keypoints:
-- "You can use facets and filters to explore your data"
+- "Facets provide a bird's-eye view onto a dataset and its column contents"
+- "Filters nose-dive you into the frog's perspective to investigate details"
 - "You can use facets and filters work with a subset of data in OpenRefine"
 - "You can easily correct common data issues from a facet"
 ---
 
 ## Facets
-Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data.
+Facets are one of the most useful features of OpenRefine and can help both get bird's-eye (over)view of the data in a project as well as helping you bring more consistency to the data.
 
 A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
 
@@ -27,7 +28,7 @@ The simplest type of Facet is called a 'Text facet'. This simply groups all the 
 
 To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel.
 
-The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings.
+The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings. This brings you from the bird's-eye view down to the frog's perspective to investigate the filtered data rows in detail.
 
 You can include multiple values from the facet in a filter at one time by using the `Include` option which appears when you put your mouse over a value in the Facet.
 
